@@ -30,7 +30,6 @@
     target = card;
     targetSearch = card.name;
     showTargetDropdown = false;
-    // Reset game when target changes
     guesses = [];
     gameOver = false;
     guess = null;
@@ -86,7 +85,7 @@
 
 <div class="page">
   <h1>Test Mode</h1>
-  <p class="subtitle">Select a target card and make guesses to test the comparison logic.</p>
+  <p class="subtitle">test comparison logic</p>
 
   <div class="selectors">
     <div class="selector-group">
